@@ -1,0 +1,6 @@
+com\cucumber\gost\StepDefinitions\LoginSD.class
+com\cucumber\gost\OR\ObjectRepositories.class
+com\cucumber\gost\StepDefinitions\CommonSD.class
+com\cucumber\gost\StepDefinitions\RegisterSD.class
+com\cucumber\gost\Selenium\SeleniumFunctions.class
+com\cucumber\gost\StepDefinitions\TestRunner.class

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "register-action",
+    "description": "",
+    "name": "Register Action",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "register-action;register-into-gost",
+        "description": "",
+        "name": "Register into Gost",
+        "keyword": "Scenario",
+        "line": 2,
+        "steps": [
+          {
+            "result": {
+              "duration": 13096623287,
+              "status": "passed"
+            },
+            "name": "User is on Home Page",
+            "keyword": "Given ",
+            "line": 3,
+            "match": {
+              "location": "CommonSD.user_is_on_Home_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52159989,
+              "status": "passed"
+            },
+            "name": "User Navigate to LogIn Page",
+            "keyword": "When ",
+            "line": 4,
+            "match": {
+              "location": "CommonSD.user_Navigate_to_LogIn_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8338105951,
+              "status": "passed"
+            },
+            "name": "User enters Registration Details",
+            "keyword": "And ",
+            "line": 5,
+            "match": {
+              "location": "RegisterSD.user_enters_Registration_Details()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1709801259,
+              "status": "passed"
+            },
+            "name": "Message displayed Register Successfully",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "location": "RegisterSD.message_displayed_Register_Successfully()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "register-action;successful-logout",
+        "description": "",
+        "name": "Successful LogOut",
+        "keyword": "Scenario",
+        "line": 7,
+        "steps": [
+          {
+            "result": {
+              "duration": 821853036,
+              "status": "passed"
+            },
+            "name": "User LogOut from the Application",
+            "keyword": "When ",
+            "line": 8,
+            "match": {
+              "location": "CommonSD.user_LogOut_from_the_Application()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45571714,
+              "status": "passed"
+            },
+            "name": "User Navigate to LogIn Page",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "location": "CommonSD.user_Navigate_to_LogIn_Page()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "gost_Register.feature"
+  },
+  {
+    "id": "login-action",
+    "description": "",
+    "name": "Login Action",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-action;successful-login-with-valid-credentials",
+        "description": "",
+        "name": "Successful Login with Valid Credentials",
+        "keyword": "Scenario",
+        "line": 2,
+        "steps": [
+          {
+            "result": {
+              "duration": 11048194758,
+              "status": "passed"
+            },
+            "name": "User is on Home Page",
+            "keyword": "Given ",
+            "line": 3,
+            "match": {
+              "location": "CommonSD.user_is_on_Home_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 49654720,
+              "status": "passed"
+            },
+            "name": "User Navigate to LogIn Page",
+            "keyword": "When ",
+            "line": 4,
+            "match": {
+              "location": "CommonSD.user_Navigate_to_LogIn_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4155897759,
+              "status": "passed"
+            },
+            "name": "User enters UserName and Password",
+            "keyword": "And ",
+            "line": 5,
+            "match": {
+              "location": "LoginSD.user_enters_UserName_and_Password()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1527441959,
+              "status": "passed"
+            },
+            "name": "Message displayed Login Successfully",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "location": "LoginSD.message_displayed_Login_Successfully()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "login-action;successful-logout",
+        "description": "",
+        "name": "Successful LogOut",
+        "keyword": "Scenario",
+        "line": 7,
+        "steps": [
+          {
+            "result": {
+              "duration": 2294695959,
+              "status": "passed"
+            },
+            "name": "User LogOut from the Application",
+            "keyword": "When ",
+            "line": 8,
+            "match": {
+              "location": "CommonSD.user_LogOut_from_the_Application()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54287934,
+              "status": "passed"
+            },
+            "name": "User Navigate to LogIn Page",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "location": "CommonSD.user_Navigate_to_LogIn_Page()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "gost_login.feature"
+  }
+]
